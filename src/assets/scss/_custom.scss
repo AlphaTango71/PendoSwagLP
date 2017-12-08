@@ -1,0 +1,18 @@
+$md-gray: #BABCC5;
+$primary: #EC2059;
+$drk-pink: #BD1746;
+
+.form-block{
+  background: $md-gray;
+}
+.logo{
+  width: 18%;
+  margin: 30px;
+}
+.hero-block{
+  background: $primary; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient($primary, $drk-pink); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient($primary, $drk-pink); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient($primary, $drk-pink); /* For Firefox 3.6 to 15 */
+    background: linear-gradient($primary, $drk-pink); /* Standard syntax */
+}
