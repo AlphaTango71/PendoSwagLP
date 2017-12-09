@@ -44,7 +44,7 @@ h3{
 .hero-content{
   background-image: url("../img/christmasShirt.png");
   background-repeat: no-repeat;
-  background-position: left bottom;
+  background-position: left 20px bottom;
   background-size: 150px;
   height: 300px;
 }
@@ -56,10 +56,13 @@ p{
  #body .grid-padding-y{
    padding: 30px 50px 20px 30px;
  }
-.group-shot{
-  margin-left: 60px;
+#body img{
+  vertical-align: bottom;
 }
-
+li{
+  font-size: 1.3em;
+  margin-left: 10px;
+}
 //media queries
 //----------------------------------------
 @media screen and (max-width: 834px) {
