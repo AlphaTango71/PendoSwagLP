@@ -7,7 +7,7 @@ $drk-gray: #2A2C35;
   background: $md-gray;
 }
 .logo{
-  width: 12%;
+  width: 14%;
   margin: 30px;
 }
 .hero-block{
@@ -34,6 +34,7 @@ h2{
  font-size: 1em;
  text-align: center;
  margin: 20px;
+ font-weight: 700;
 }
 .hero-content{
   background-image: url("../img/christmasShirt.png");
@@ -41,4 +42,24 @@ h2{
   background-position: left bottom;
   background-size: 150px;
   height: 300px;
+}
+@media screen and (max-width: 834px) {
+  h1{
+    font-size: 2em;
+  }
+}
+@media screen and (max-width: 834px) {
+  .logo{
+    width: 20%;
+  }
+}
+@media screen and (max-width: 420px) {
+  h1{
+    font-size: 1.5em;
+  }
+}
+@media screen and (max-width: 420px) {
+  .logo{
+    width: 28%;
+  }
 }
