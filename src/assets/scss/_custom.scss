@@ -50,14 +50,15 @@ h3{
 }
 p{
   color: $drk-gray;
-  font-size: 1.2em;
+  font-size: 1.4em;
   line-height: 1.3em;
 }
  #body .grid-padding-y{
-   padding-top: 30px;
-   padding-left: 20px;
+   padding: 30px 50px 20px 30px;
  }
-
+.group-shot{
+  margin-left: 60px;
+}
 
 //media queries
 //----------------------------------------
