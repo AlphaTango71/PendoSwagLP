@@ -1,6 +1,7 @@
 $md-gray: #BABCC5;
 $primary: #EC2059;
 $drk-pink: #BD1746;
+$drk-gray: #2A2C35;
 
 .form-block{
   background: $md-gray;
@@ -18,4 +19,19 @@ $drk-pink: #BD1746;
 }
 .hero-photo{
   width: 15%;
+}
+.single-image{
+  padding: 15px 30px 0;
+}
+h1{
+  color: white;
+  font-weight: 700;
+  padding: 30px 50px;
+  font-size: 2.5em;
+}
+h2{
+ color: $drk-gray;
+ font-size: 1em;
+ text-align: center;
+ margin: 20px;
 }
