@@ -2,6 +2,7 @@ $md-gray: #BABCC5;
 $primary: #EC2059;
 $drk-pink: #BD1746;
 $drk-gray: #2A2C35;
+$lt-gray: #F4F4F7;
 
 .form-block{
   background: $md-gray;
@@ -69,6 +70,36 @@ li{
   padding-right: 20px;
   margin-top: 100px;
 }
+footer{
+  flex: 0 1 60px;
+  height: 100%;
+  color: $md-gray;
+  background-color: $drk-gray;
+  padding: 50px 0;
+}
+footer p{
+  color: white;
+}
+footer a{
+  transition: color 0.3s ease;
+  display: inline;
+  color: white;
+  font-size: .7em;
+  margin: 10px;
+}
+footer a:hover{
+  color: white;
+}
+footer .input-group{
+  margin-top: 20px;
+}
+.copyright{
+  font-size: .7em;
+}
+.footer-rule{
+  border-top: 1px solid white;
+}
+
 //media queries
 //----------------------------------------
 @media screen and (max-width: 834px) {
