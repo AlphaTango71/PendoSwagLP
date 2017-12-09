@@ -38,6 +38,8 @@ h2{
 }
 h3{
   color: $primary;
+  font-size: 1.8em;
+  font-weight: 700;
 }
 .hero-content{
   background-image: url("../img/christmasShirt.png");
@@ -51,9 +53,11 @@ p{
   font-size: 1.2em;
   line-height: 1.3em;
 }
-.text-block{
-  margin: 40px;
-}
+ #body .grid-padding-y{
+   padding-top: 30px;
+   padding-left: 20px;
+ }
+
 
 //media queries
 //----------------------------------------
