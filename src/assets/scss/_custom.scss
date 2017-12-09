@@ -69,9 +69,14 @@ li{
   margin-right: 20px;
   padding-right: 20px;
   margin-top: 100px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+#body .auto.cell{
+  padding: 0;
+  margin: 0;
 }
 footer{
-  flex: 0 1 60px;
   height: 100%;
   color: $md-gray;
   background-color: $drk-gray;
@@ -83,7 +88,7 @@ footer p{
 footer a{
   transition: color 0.3s ease;
   display: inline;
-  color: white;
+  color: $md-gray;
   font-size: .7em;
   margin: 10px;
 }
