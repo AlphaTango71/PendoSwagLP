@@ -6,7 +6,7 @@ $drk-pink: #BD1746;
   background: $md-gray;
 }
 .logo{
-  width: 18%;
+  width: 12%;
   margin: 30px;
 }
 .hero-block{
@@ -15,4 +15,7 @@ $drk-pink: #BD1746;
     background: -o-linear-gradient($primary, $drk-pink); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient($primary, $drk-pink); /* For Firefox 3.6 to 15 */
     background: linear-gradient($primary, $drk-pink); /* Standard syntax */
+}
+.hero-photo{
+  width: 15%;
 }
