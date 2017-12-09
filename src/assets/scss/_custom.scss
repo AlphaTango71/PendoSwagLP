@@ -36,6 +36,9 @@ h2{
  margin: 20px;
  font-weight: 700;
 }
+h3{
+  color: $primary;
+}
 .hero-content{
   background-image: url("../img/christmasShirt.png");
   background-repeat: no-repeat;
@@ -43,6 +46,17 @@ h2{
   background-size: 150px;
   height: 300px;
 }
+p{
+  color: $drk-gray;
+  font-size: 1.2em;
+  line-height: 1.3em;
+}
+.text-block{
+  margin: 40px;
+}
+
+//media queries
+//----------------------------------------
 @media screen and (max-width: 834px) {
   h1{
     font-size: 2em;
